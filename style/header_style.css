@@ -1,0 +1,87 @@
+.header{
+    display: flex;
+    flex-direction: row;
+    height: 55px;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.left-header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 170px;
+    height: 45px;
+    align-items: center;
+}
+
+.middle-header{
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    height: 45px;
+    margin-left: 175px;
+    margin-right: 135px;
+    align-items: center;
+}
+
+.right-header{
+    display: flex;
+    flex-direction: row;
+    width: 230px;
+    height:30px;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 5px 0 5px;
+}
+
+.yt{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.yt-icon {
+    margin-right: 5px;
+    height: 35px;
+}
+
+.yt-text{
+    margin: 0;
+    font-size: 20px;
+}
+
+.search-bar{
+    height: 35px;
+    flex:1;
+    max-width: 650px;
+}
+
+.search-glass{
+    width: 35px;
+    height: 27px;
+    margin: 0 9px 0 9px;
+}
+
+.mic {
+    height: 25px;
+    margin-right: 5px;
+}
+
+.create-video {
+    height: 27px;
+}
+
+.app-grid {
+    height: 22px;
+}
+
+
+.pro-pic {
+    height: 45px;
+}
+
+.search-bar::placeholder {
+    font-size: 18px;
+    padding-left: 8px;
+}
